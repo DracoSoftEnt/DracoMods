@@ -17,6 +17,8 @@ background:linear-gradient(
 
 color:#222;
 
+transition:all .35s ease;
+
 }
 
 
@@ -26,9 +28,7 @@ color:#222;
 .navbar{
 
 display:flex;
-
 justify-content:space-between;
-
 align-items:center;
 
 padding:20px 8%;
@@ -58,6 +58,26 @@ padding:10px 16px;
 border-radius:20px;
 
 border:1px solid #ddd;
+
+}
+
+.dark-btn{
+
+background:#eee;
+
+border:none;
+
+padding:8px 12px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+font-size:16px;
+
+margin-left:10px;
+
+transition:.3s;
 
 }
 
@@ -190,6 +210,58 @@ font-size:13px;
 .rating{
 
 font-size:14px;
+
+}
+
+
+
+/* DARK MODE */
+
+body.dark{
+
+background:#0f0f0f;
+
+color:#eee;
+
+}
+
+body.dark .navbar{
+
+background:#121212;
+
+border-bottom:1px solid #222;
+
+}
+
+body.dark .search{
+
+background:#1a1a1a;
+
+border:1px solid #333;
+
+color:#eee;
+
+}
+
+body.dark .app-card{
+
+background:#1a1a1a;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+
+}
+
+body.dark .app-card p{
+
+color:#bbb;
+
+}
+
+body.dark .dark-btn{
+
+background:#1a1a1a;
+
+color:white;
 
 }
 
