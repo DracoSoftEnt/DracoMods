@@ -23,6 +23,7 @@
 <h1 class="logo">DRACOMODS</h1>
 
 <input id="search" class="search" placeholder="Buscar juegos o apps...">
+<button id="darkToggle" class="dark-btn">🌙</button>
 
 </header>
 
@@ -465,6 +466,34 @@ card.style.display=text.includes(filter) ? "block" : "none"
 
 </script>
 
+<script>
+
+/* DARK MODE */
+
+const toggle=document.getElementById("darkToggle")
+
+if(localStorage.getItem("darkmode")==="on"){
+
+document.body.classList.add("dark")
+toggle.innerHTML="☀️"
+
+}
+
+toggle.onclick=function(){
+
+document.body.classList.toggle("dark")
+
+if(document.body.classList.contains("dark")){
+localStorage.setItem("darkmode","on")
+toggle.innerHTML="☀️"
+}else{
+localStorage.setItem("darkmode","off")
+toggle.innerHTML="🌙"
+}
+
+}
+
+</script>
 
 </body>
 </html>
