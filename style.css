@@ -72,7 +72,11 @@ border:1px solid #ddd;
   transition:.3s;
 }
 
-
+.header-actions {
+  display:flex;
+  align-items:center;
+  gap:4px; /* separación mínima controlada */
+}
 
 /* APPS */
 
