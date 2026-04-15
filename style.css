@@ -245,13 +245,13 @@ box-shadow:0 10px 30px rgba(0,0,0,0.6);
 
 body.dark .app-card p{
 
-color:#bbb;
+color:trasparent;
 
 }
 
 body.dark .dark-btn{
 
-background:#1a1a1a;
+background:trasparent;
 
 color:white;
 
