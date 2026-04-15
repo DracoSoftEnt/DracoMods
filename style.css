@@ -61,24 +61,15 @@ border:1px solid #ddd;
 
 }
 
-.dark-btn{
-
-background:#eee;
-
-border:none;
-
-padding:8px 12px;
-
-border-radius:20px;
-
-cursor:pointer;
-
-font-size:16px;
-
-margin-left:10px;
-
-transition:.3s;
-
+.dark-btn {
+  background:#eee;
+  border:none;
+  padding:8px 12px;
+  border-radius:20px;
+  cursor:pointer;
+  font-size:16px;
+  margin-left:0; /* ✅ quitar espacio */
+  transition:.3s;
 }
 
 
