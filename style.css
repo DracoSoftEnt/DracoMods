@@ -68,11 +68,15 @@ border:1px solid #ddd;
   border-radius:20px;
   cursor:pointer;
   font-size:16px;
-  margin-left:20; 
   transition:.3s;
+  
+.header-actions{
+  display:flex;
+  align-items:center;
+  gap:5px;
 }
 
-
+}
 
 /* APPS */
 
