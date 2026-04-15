@@ -52,15 +52,12 @@ font-weight:700;
 }
 
 .search{
+  padding:10px 16px;
+  border-radius:20px;
+  border:1px solid #ddd;
 
-padding:10px 16px;
-
-border-radius:20px;
-
-border:1px solid #ddd;
-
+  width:250px; /* 🔥 CLAVE */
 }
-
 .dark-btn {
   background:#eee;
   border:none;
